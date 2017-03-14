@@ -1,0 +1,27 @@
+{
+  "name": "LambdaExample",
+  "version": "0.0.1",
+  "description": "Hello World",
+  "main": "",
+  "scripts": {
+    "dev": "node app_dev",
+    "server": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seye2/serverlessWeb.git"
+  },
+  "keywords": [
+    "Lambda",
+    "aws-serverless-express"
+  ],
+  "authors": [
+    "seye2 <seye2@nate.com> (https://github.com/seye2)"
+  ],
+  "homepage": "http://seye2.egloos.com",
+  "dependencies": {
+    "aws-serverless-express": "^2.1.3",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {}
+}
