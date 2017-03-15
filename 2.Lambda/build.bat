@@ -6,6 +6,6 @@ copy c:\project\serverlessWeb\2.Lambda\index.js c:\project\serverlessWeb\2.Lambd
 copy c:\project\serverlessWeb\2.Lambda\package.json c:\project\serverlessWeb\2.Lambda\functions\world\package.json
 
 cd c:\project\serverlessWeb\2.Lambda\functions\world
-npm install && cd c:\project\serverlessWeb\2.Lambda && apex deploy
+yarn && cd c:\project\serverlessWeb\2.Lambda && apex deploy
 
 
