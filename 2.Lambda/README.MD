@@ -20,13 +20,11 @@ description은 Lambda에 대한 설명이다.
 role은 Lambda가 실행될 role을 지정한다.
 memory는 람다가 실행하는데 필요한 메모리 지정이다.
 
-위와 같이하여 apex deploy를 실행하면
+위와 같이하여 apex deploy를 실행하면 hello_world라는 Lambda함수가 실행된다.
 
 apex init으로 실행을 하면 IAM ROLE이 매번 생성되어 관리하기 어려운 어려움이 있다.
 그래서 위와같이 functions폴더 및 project.json파일을 수동으로 생성하여 바로 apex deploy를 실행하면
 role이나 policy자동 생성없이 기존롤을 지정하여 배포 및 실행 가능하다.
-
-
 
 ```
 npm run server
@@ -47,4 +45,7 @@ npm run server실행 시 build.bat배치 파일 실행
  cd c:\project\serverlessWeb\2.Lambda\functions\world
  yarn && cd c:\project\serverlessWeb\2.Lambda && apex deploy                                                        #yarn으로 package.json설치 후 apex deploy로 functions\world 내 파일을 압축하여 Lambda로 배포
 ```
+
+위의 내용을 거친 후
+apex invoke world라는 함수명을 지정하여 invoke하면 원격으로 실행된 람다 함수의 결과를 로컬에서 확인 가능하다.(성공이나 실패에 관련된 메세지)
 
