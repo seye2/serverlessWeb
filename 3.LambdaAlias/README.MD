@@ -22,5 +22,4 @@ npm run prodr
 
 alias:prod가 생성된다.
 
-![alt text](http://thumbnail.egloos.net/600x0/http://pds21.egloos.com/pds/201703/26/38/e0015438_58d7994303a450.png "Logo Title Text 1")
-
+![Kiku](http://thumbnail.egloos.net/600x0/http://pds21.egloos.com/pds/201703/26/38/e0015438_58d7994303a450.png)
