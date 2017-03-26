@@ -49,3 +49,5 @@ npm run server실행 시 build.bat배치 파일 실행
 위의 내용을 거친 후
 apex invoke world라는 함수명을 지정하여 invoke하면 원격으로 실행된 람다 함수의 결과를 로컬에서 확인 가능하다.(성공이나 실패에 관련된 메세지)
 
+apex deploy를 실행하면 아래와 같이
+

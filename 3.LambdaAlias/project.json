@@ -1,0 +1,6 @@
+{
+  "name": "hello",
+  "description": "Node.js example project",
+  "role": "arn:aws:iam::448067002058:role/lambda",
+  "memory": 512
+}
